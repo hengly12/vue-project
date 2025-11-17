@@ -10,11 +10,10 @@
           </div>
 
           <ul class="nav-links" :class="{ active: mobileMenuOpen }">
-            <li><a href="#home">Home</a></li>
+            <li><router-link to="/home">Home</router-link></li>
             <li><router-link to="/about">About</router-link></li>
-            <li><a href="#deals">Deals</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><router-link to="/deals">Deals</router-link></li>
+            <li><router-link to="/contact">Contact</router-link></li>
           </ul>
 
           <div class="nav-actions">
